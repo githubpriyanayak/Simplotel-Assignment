@@ -1,0 +1,343 @@
+/* Styling for the navigation bar */
+.unordered-list-nav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f56464;
+    text-align: center;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex;
+
+}
+
+/* Additional styling for the navigation bar */
+.unordered-list-nav {
+
+    background-color: #f56464;
+    overflow: hidden;
+    width: auto;
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+
+}
+
+/* Styling for each list item in the navigation bar */
+.unordered-li {
+
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 8px 55px;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+
+/* Styling for the image within the navigation bar */
+.list-img {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: 81px;
+
+}
+
+/* Styling for the navigation bar image */
+.nav-bar-img {
+
+    height: 40px;
+    /* Adjust the height as needed */
+
+}
+
+
+/* Styling for anchor elements */
+a {
+
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
+/* Styling for a specific class of navigation bar image */
+.nav-bar-image {
+
+    width: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+
+}
+
+/* Styling for the top section container */
+.top-section-container {
+
+    background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+    display: flex;
+
+}
+
+/* Styling for the top text container within the top section */
+.top-text-container {
+
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Arial";
+
+}
+
+/* Styling for the top section heading */
+.top-section-heading {
+
+    font-size: 40px;
+    width: 100%;
+
+}
+
+/* Styling for the top section message */
+.top-section-message {
+
+    font-size: 13px;
+
+}
+
+/* Styling for the "Click Me" button */
+.click-me-button {
+
+    width: 40%;
+    background-color: #f56464;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 8px 0px;
+    font-size: 12px;
+    font-family: "candara light";
+
+}
+
+/* Styling for the top image container */
+.top-image-container {
+
+    width: 100%;
+
+}
+
+/* Styling for a specific class of top section image */
+.top-section-image {
+
+    width: 50%;
+
+}
+
+
+/* Styling for the bottom section container */
+.buttom-section-container {
+
+    background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+
+/* Styling for the bottom section images container */
+.buttom-section-images-container {
+
+    display: flex;
+    width: 50%;
+
+}
+
+/* Styling for a specific class of bottom section images */
+.buttom-section-two-images {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 50%;
+    height: 50%;
+    gap: 10px;
+
+}
+
+/* Styling for the last image in the bottom section */
+#buttom-section-last-image {
+
+    width: 50%;
+    display: flex;
+
+}
+
+/* Styling for a specific class of image-1 */
+.image-1 {
+
+    width: 100%;
+    margin-bottom: 10px;
+    height: 200px;
+
+}
+
+.buttom-section-height-image {
+
+    width: 50%;
+
+}
+
+/* Styling for a specific class of bottom section height image */
+.buttom-section-text-container {
+
+    background-color: #f56464;
+    padding: 5%;
+    width: 30%;
+    font-family: "Arial";
+    display: flex;
+
+
+}
+
+/* Styling for the bottom section text container */
+.buttom-section-small-heading {
+
+    margin-bottom: 10px;
+    font-size: 10px;
+    display: flex;
+
+}
+
+/* Styling for the bottom section small heading */
+.buttom-section-heading {
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+
+/* Styling for the arrow click container */
+.arrow-click-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Updated to column layout */
+    position: absolute;
+
+}
+
+/* Styling for the click heading */
+.click-heading {
+
+    font-size: 10px;
+    display: flex;
+    margin-top: 124px;
+    /* Add margin to separate from the image */
+    margin-left: 0px;
+
+}
+
+
+/* Styling for the right arrow image */
+.right-arrow-image {
+
+    width: 20px;
+    margin-left: 5px;
+
+}
+
+/* Styling for a specific ID of btn */
+#btn {
+
+    margin-left: 15%;
+    display: flex;
+
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media screen and (max-width: 576px) {
+
+
+    /* Flex direction for the navigation bar when the screen is small */
+    .unordered-list-nav {
+        flex-direction: column;
+    }
+
+    /* Hide list items in the navigation bar when the screen is small */
+    .unordered-li {
+        display: none;
+    }
+
+    /* Flex direction for the top section container when the screen is small */
+    .top-section-container {
+        flex-direction: column;
+    }
+
+    /* Adjust width and order for the top text container when the screen is small */
+    .top-text-container {
+        width: 90%;
+        order: 2;
+    }
+
+    /* Adjust margin for the top section message when the screen is small */
+    .top-section-message {
+        margin-bottom: 20px;
+    }
+
+    /* Adjust margin for the top section heading when the screen is small */
+    .top-section-heading {
+        margin-bottom: 10px;
+    }
+
+
+    /* Adjust width and order for the top image container when the screen is small */
+    .top-image-container {
+        width: 100%;
+        order: 1;
+    }
+
+    /* Align the list image to the bottom when the screen is small */
+    .list-img {
+        align-content: flex-end;
+    }
+
+    /* Flex direction, padding, and width adjustments for the bottom section container when the screen is small */
+    .buttom-section-container {
+
+        flex-direction: column;
+        padding: 2%;
+        /* Adjust the padding as needed */
+        width: 100%;
+
+    }
+
+    /* Adjust the width to 100% and center the content horizontally within the bottom section images container */
+    .buttom-section-images-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Adjust width for a specific class of image-1 when the screen is small */
+    .image-1 {
+        width: 100%;
+    }
+
+    /* Adjust width and margin-top for the bottom section text container when the screen is small */
+    .buttom-section-text-container {
+        width: 90%;
+        margin-top: 20px;
+        padding: 5%;
+        /* Adjust the padding as needed */
+    }
+}
